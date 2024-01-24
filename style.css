@@ -1,6 +1,14 @@
+body, h1, h2, h3, p, button {
+    margin: 0;
+    padding: 0;
+    border: none;
+
+}
+
 body {
     color: white;
     font-family:"jetBrains Mono", sans-serif;
+    
 }
 
 
@@ -30,11 +38,13 @@ body {
 
 .titulo-secundario {
     font-size:42px ;
+    padding: 32px 0 ;
 }
 
 .titulo-principal {
     font-size: 70px;
     font-weight: 900;
+    padding: 32px 0;
 
 }
 
@@ -48,6 +58,7 @@ body {
     font-family: "montserrat", sans-serif;
     font-size: 18px;
     line-height:30px ;
+    padding-bottom: 32px;
     
 }
 
@@ -61,3 +72,28 @@ svg {
     fill: white;
 }
 
+.secao-destaque, .secao-conteudo, .secao-calendario {
+    padding: 80px;
+
+}
+#rodape {
+    padding: 32px 0;
+    text-align: center;
+}
+
+.botao-chamada {
+    padding: 25px 50px;
+    background-color: #00ffa5;
+    font-family: "JetBrains Mono", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+
+/* .card{ */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+     
+}
