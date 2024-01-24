@@ -1,22 +1,61 @@
+body {
+    color: white;
+    font-family:"jetBrains Mono", sans-serif;
+}
+
+
+
 .secao-destaque, .secao-calendario {
     background-color:#00005f ;
-    color: white;
+    
 
 }
 
-
-
-
-.secao-conteudo {
+.secao-conteudo, #rodape {
     background-color: #00002a;
-    color:white;
+ 
 
 }
 
-#rodape{
-    background-color: #00002a ;
+.texto-superior-principal{
+    font-size: 22px;
+    font-weight: 800;
+
 }
 
+.texto-superior-secundario {
+    font-size: 15px;
+
+}
+
+.titulo-secundario {
+    font-size:42px ;
+}
+
+.titulo-principal {
+    font-size: 70px;
+    font-weight: 900;
+
+}
+
+.titulo-terciario {
+    font-size: 31px; 
+
+
+}
+
+.paragrafo-padrao{
+    font-family: "montserrat", sans-serif;
+    font-size: 18px;
+    line-height:30px ;
+    
+}
+
+.paragrafo-menor {
+    font-family: "montserrat", sans-serif;  
+    font-size: 15px;
+
+}
 
 svg {
     fill: white;
