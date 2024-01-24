@@ -1,9 +1,24 @@
-.section1{
-    background-color: blue;
+.secao-destaque, .secao-calendario {
+    background-color:#00005f ;
     color: white;
+
 }
 
-.button{
-    border-bottom-color: green;
-    
+
+
+
+.secao-conteudo {
+    background-color: #00002a;
+    color:white;
+
 }
+
+#rodape{
+    background-color: #00002a ;
+}
+
+
+svg {
+    fill: white;
+}
+
