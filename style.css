@@ -2,6 +2,7 @@ body, h1, h2, h3, p, button {
     margin: 0;
     padding: 0;
     border: none;
+    box-sizing: border-box;
 
 }
 
@@ -91,9 +92,24 @@ svg {
 
 }
 
-.card{ */
+.cartao { 
+    border: 1px solid gray;
+    padding: 15px;  
+    width: 100%;
     display: flex;
-    justify-content: space-around;
-     
+    flex-direction: column;
+    gap: 15px;
     
+
+    
+        
+}
+
+.lista-cartoes {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    padding-bottom: 32px;
+
+
 }
