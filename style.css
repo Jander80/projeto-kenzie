@@ -1,4 +1,4 @@
-body, h1, h2, h3, p, button {
+body, h1, h2, h3, p, button, ul, li {
     margin: 0;
     padding: 0;
     border: none;
@@ -11,8 +11,6 @@ body {
     font-family:"jetBrains Mono", sans-serif;
     
 }
-
-
 
 .secao-destaque, .secao-calendario {
     background-color:#00005f ;
@@ -78,8 +76,32 @@ svg {
 
 }
 #rodape {
-    padding: 32px 0;
-    text-align: center;
+     padding: 32px 25px; 
+     border-top: 1px solid gray;
+     display: flex; 
+     
+}
+
+.rodape-link{
+    color: white;
+    text-decoration: none;
+}
+
+.rodape-link:hover {
+    text-decoration: none;
+}
+
+.redes-sociais{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.contatos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .botao-chamada {
@@ -99,9 +121,7 @@ svg {
     display: flex;
     flex-direction: column;
     gap: 15px;
-    
-
-    
+     
         
 }
 
