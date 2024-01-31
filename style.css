@@ -79,6 +79,9 @@ svg {
      padding: 32px 25px; 
      border-top: 1px solid gray;
      display: flex; 
+     flex-direction: column;
+     gap: 16px;
+     
      
 }
 
@@ -88,7 +91,7 @@ svg {
 }
 
 .rodape-link:hover {
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 .redes-sociais{
@@ -102,6 +105,7 @@ svg {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    gap: 16px;
 }
 
 .botao-chamada {
@@ -133,3 +137,19 @@ svg {
 
 
 }
+
+
+@media (max-width: 1068px){
+    .lista-cartoes {
+      flex-direction: column;
+    }
+  }
+  
+  @media (max-width: 580px){
+    .titulo-principal {
+      font-size: 45px;
+    }
+}
+    
+
+
