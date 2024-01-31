@@ -1,4 +1,4 @@
-body, h1, h2, h3, p, button, ul, li {
+body, h1, h2, h3, p, button, ul, li, logo, imagem {
     margin: 0;
     padding: 0;
     border: none;
@@ -30,6 +30,15 @@ body {
 
 }
 
+.logo{
+    display: flex;
+    justify-content: flex-start;
+    width: 80px;
+    height: 100px;
+    padding: 32px 0;
+    
+    
+}
 .texto-superior-secundario {
     font-size: 15px;
 
@@ -44,6 +53,7 @@ body {
     font-size: 70px;
     font-weight: 900;
     padding: 32px 0;
+    
 
 }
 
@@ -94,6 +104,13 @@ svg {
     text-decoration: underline;
 }
 
+.imagem{
+    display: flex;    
+    justify-content: flex-end; 
+    padding: 32px 0;   
+    
+   
+}
 .redes-sociais{
     display: flex;
     flex-direction: column;
