@@ -1,7 +1,8 @@
-body, h1, h2, h3, p, button {
+body, h1, h2, h3, p, button, ul, li {
     margin: 0;
     padding: 0;
     border: none;
+    box-sizing: border-box;
 
 }
 
@@ -10,8 +11,6 @@ body {
     font-family:"jetBrains Mono", sans-serif;
     
 }
-
-
 
 .secao-destaque, .secao-calendario {
     background-color:#00005f ;
@@ -77,8 +76,36 @@ svg {
 
 }
 #rodape {
-    padding: 32px 0;
-    text-align: center;
+     padding: 32px 25px; 
+     border-top: 1px solid gray;
+     display: flex; 
+     flex-direction: column;
+     gap: 16px;
+     
+     
+}
+
+.rodape-link{
+    color: white;
+    text-decoration: none;
+}
+
+.rodape-link:hover {
+    text-decoration: underline;
+}
+
+.redes-sociais{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.contatos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 16px;
 }
 
 .botao-chamada {
@@ -91,9 +118,38 @@ svg {
 
 }
 
-/* .card{ */
+.cartao { 
+    border: 1px solid gray;
+    padding: 15px;  
+    width: 100%;
     display: flex;
-    align-items: center;
-    justify-content: flex-start;
+    flex-direction: column;
+    gap: 15px;
      
+        
 }
+
+.lista-cartoes {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    padding-bottom: 32px;
+
+
+}
+
+
+@media (max-width: 1068px){
+    .lista-cartoes {
+      flex-direction: column;
+    }
+  }
+  
+  @media (max-width: 580px){
+    .titulo-principal {
+      font-size: 45px;
+    }
+}
+    
+
+
